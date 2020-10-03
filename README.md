@@ -1,4 +1,6 @@
-<p align="center">Duration Format<p>
+<h1 align="center"><a href="https://github.com/Flcwl/duration-format" target="_blank" rel="noopener noreferrer">Duration Format</a><h1>
+
+&middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/duration-format/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/duration-format)
 
 > The plugin is a pure JavaScript library that parses duration time length to format display.
 
