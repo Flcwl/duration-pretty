@@ -5,10 +5,14 @@ interface DurationTime {
     seconds: number;
     milliseconds: number;
 }
+declare enum DurationType {
+    seconds = "seconds",
+    milliseconds = "milliseconds"
+}
 interface Duration {
     $d: DurationTime;
     $t: number;
     format: (formatStr: string) => string;
 }
-export declare const duration: (t: unknown, type?: string) => Duration;
+export declare const duration: (t: unknown, type?: DurationType) => Duration;
 export {};

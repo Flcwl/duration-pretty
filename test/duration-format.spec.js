@@ -1,4 +1,4 @@
-import { duration } from '../src/duration-format'
+import duration from '../src'
 
 // $N means Nth parameter
 describe('Time duration to format', () => {

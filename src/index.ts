@@ -1,1 +1,1 @@
-export * from './duration-format'
+export { duration, duration as default } from './duration-format'

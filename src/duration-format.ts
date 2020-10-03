@@ -8,6 +8,11 @@ interface DurationTime {
   milliseconds: number
 }
 
+enum DurationType {
+  seconds = 'seconds',
+  milliseconds = 'milliseconds',
+}
+
 interface Duration {
   $d: DurationTime
   $t: number
@@ -88,7 +93,7 @@ const TIME_TRANSFORM = {
   },
 }
 
-export const duration = (t: unknown, type = 'milliseconds'): Duration => {
+export const duration = (t: unknown, type: DurationType = DurationType.milliseconds): Duration => {
   if (typeof t !== 'number') {
     throw new TypeError('Expected a number')
   }

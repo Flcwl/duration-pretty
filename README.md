@@ -1,23 +1,32 @@
-<h1 align="center"><a href="https://github.com/Flcwl/duration-format" target="_blank" rel="noopener noreferrer">Duration Format</a><h1>
+<h1 align="center"><a href="https://github.com/Flcwl/duration-pretty" target="_blank" rel="noopener noreferrer">Duration Pretty</a><h1>
 
-&middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/duration-format/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/duration-format)
+<p align="center">
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Flcwl/duration-pretty/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/duration-pretty.svg?style=flat)](https://www.npmjs.com/package/duration-pretty)
+</p>
 
-> The plugin is a pure JavaScript library that parses duration time length to format display.
+<p align="center">The plugin is a pure JavaScript library that parses duration time length to format display.</p>
 
 ## Getting Started
 
 ### Installation
 
 ```console
-npm install --save duration-format
+npm install --save duration-pretty
 ```
 
 ### Documentation
 
+The `duration(timestamp, type)` get two parameters: timestamp && type.
+
+```js
+timestamp: number
+type: seconds | milliseconds
+```
+
 Format duration time using a template string to `format()`.
 
 ```js
-var duration = require('duration-format')
+var duration = require('duration-pretty')
 
 duration(7380, 'seconds').format('H:mm') // "2:03"
 ```
