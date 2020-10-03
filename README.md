@@ -1,10 +1,10 @@
-<h1 align="center"><a href="https://github.com/Flcwl/duration-pretty" target="_blank" rel="noopener noreferrer">Duration Pretty</a><h1>
+# Duration Pretty
 
-<p align="center">
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Flcwl/duration-pretty/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/duration-pretty.svg?style=flat)](https://www.npmjs.com/package/duration-pretty)
-</p>
+[![Build Status](https://travis-ci.org/Flcwl/duration-pretty.svg?branch=master)](https://travis-ci.org/github/Flcwl/duration-pretty)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Flcwl/duration-pretty/blob/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/duration-pretty.svg?style=flat)](https://www.npmjs.com/package/duration-pretty)
 
-<p align="center">The plugin is a pure JavaScript library that parses duration time length to format display.</p>
+> > The plugin is a pure JavaScript library that parses duration time length to format display.
 
 ## Getting Started
 
