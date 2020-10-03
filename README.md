@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Flcwl/duration-pretty/blob/master/LICENSE)
 [![npm version](https://img.shields.io/npm/v/duration-pretty.svg?style=flat)](https://www.npmjs.com/package/duration-pretty)
 
-> > The plugin is a pure JavaScript library that parses duration time length to format display.
+> The plugin is a pure JavaScript library that parses duration time length to format display.
 
 ## Getting Started
 
