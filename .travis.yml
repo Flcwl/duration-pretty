@@ -12,7 +12,8 @@ install:
   - npm install -g codecov
   - npm install
 script:
-  - npm prepare
+  - npm run lint
+  - npm run test
   - codecov
 after_success:
   - if [ "$TRAVIS_BRANCH" == "master" ] && [ "${TRAVIS_PULL_REQUEST}" == "false" ]; then
