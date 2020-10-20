@@ -26,7 +26,7 @@ type: seconds | milliseconds
 Format duration time using a template string to `format()`.
 
 ```js
-var duration = require('duration-pretty')
+var { duration } = require('duration-pretty')
 
 duration(7380, 'seconds').format('H:mm') // "2:03"
 ```

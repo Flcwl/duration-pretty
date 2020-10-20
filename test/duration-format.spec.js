@@ -1,4 +1,5 @@
-import duration from '../src'
+import duration from '../lib'
+// const { duration } = require('../lib')
 
 // $N means Nth parameter
 describe('Time duration to format', () => {
