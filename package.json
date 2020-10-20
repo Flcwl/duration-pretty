@@ -1,6 +1,6 @@
 {
   "name": "duration-pretty",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "types": "lib/*.d.ts",
   "description": "A pure JavaScript library that parses duration time length to format display",
   "main": "lib/index.js",
