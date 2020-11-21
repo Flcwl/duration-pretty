@@ -1,13 +1,12 @@
+declare type DurationType = 'seconds' | 'milliseconds';
 interface DurationTime {
+    years: number;
+    months: number;
     days: number;
     hours: number;
     minutes: number;
     seconds: number;
     milliseconds: number;
-}
-declare enum DurationType {
-    seconds = "seconds",
-    milliseconds = "milliseconds"
 }
 interface Duration {
     $d: DurationTime;

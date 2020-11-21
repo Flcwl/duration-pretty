@@ -1,5 +1,15 @@
 # Change Log
 
+## v0.1.0
+
+- [feat] support Y|M|MM.
+- [chore] simplified code.
+- [chore] Update README.md.
+
+## v0.0.4
+
+- [feat] support commonjs.
+
 ## v0.0.2
 
 - [chore] Update README.md.
