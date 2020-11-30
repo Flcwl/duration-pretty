@@ -55,7 +55,7 @@ milliseconds: SSS
 Escape token characters within the template string using `[]`.
 
 ```js
-duration(3661, 'seconds').format('H [[H]], m [[m] countdown]') // "1 [Hrs], 1 [mins countdown]"
+duration(3661, 'seconds').format('H [[H]], m [[m] countdown]') // "1 [H], 1 [m countdown]"
 ```
 
 ## Tests
