@@ -1,9 +1,13 @@
 {
   "name": "duration-pretty",
-  "version": "0.1.0",
-  "types": "lib/*.d.ts",
+  "version": "0.1.1",
   "description": "A pure JavaScript library that parses duration time length to format display",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "test": "jest --config jest.config.json",
     "build": "tsc",
@@ -38,8 +42,5 @@
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "^3.5.3"
-  },
-  "files": [
-    "lib/**/*"
-  ]
+  }
 }
